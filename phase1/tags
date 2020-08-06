@@ -1,0 +1,399 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALARM_DEV	usloss/include/usloss.h	73;"	d
+ALARM_INT	usloss/include/usloss.h	57;"	d
+ALARM_UNITS	usloss/include/usloss.h	82;"	d
+AR	Makefile	/^AR=ar$/;"	m
+ASSIGNMENT	Makefile	/^ASSIGNMENT= 452phase1$/;"	m
+BLOCKED	kernel.h	16;"	d
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -g -I${INCLUDE} -I.$/;"	m
+CLOCK_DEV	usloss/include/usloss.h	72;"	d
+CLOCK_INT	usloss/include/usloss.h	56;"	d
+CLOCK_MS	usloss/include/usloss.h	191;"	d
+CLOCK_UNITS	usloss/include/usloss.h	81;"	d
+COBJS	Makefile	/^COBJS= phase1.o$/;"	m
+CSRCS	Makefile	/^CSRCS=${COBJS:.o=.c}$/;"	m
+Current	phase1.c	/^proc_ptr Current;$/;"	v
+DEBUG	kernel.h	1;"	d
+DEV_BUSY	usloss/include/usloss.h	117;"	d
+DEV_ERROR	usloss/include/usloss.h	118;"	d
+DEV_INVALID	usloss/include/usloss.h	128;"	d
+DEV_OK	usloss/include/usloss.h	127;"	d
+DEV_READY	usloss/include/usloss.h	116;"	d
+DISK_DEV	usloss/include/usloss.h	74;"	d
+DISK_INT	usloss/include/usloss.h	58;"	d
+DISK_READ	usloss/include/usloss.h	105;"	d
+DISK_SECTOR_SIZE	usloss/include/usloss.h	168;"	d
+DISK_SEEK	usloss/include/usloss.h	107;"	d
+DISK_TRACKS	usloss/include/usloss.h	108;"	d
+DISK_TRACK_SIZE	usloss/include/usloss.h	169;"	d
+DISK_UNITS	usloss/include/usloss.h	83;"	d
+DISK_WRITE	usloss/include/usloss.h	106;"	d
+EMPTY	kernel.h	15;"	d
+ERR_INVALID	usloss/include/phase4.h	29;"	d
+ERR_OK	usloss/include/phase4.h	30;"	d
+FLAG1	testcases/test17.c	12;"	d	file:
+HDRS	Makefile	/^HDRS=kernel.h$/;"	m
+HIGHEST_PRIORITY	usloss/include/phase1.h	35;"	d
+INCLUDE	Makefile	/^INCLUDE = .\/usloss\/include$/;"	m
+JOIN_BLOCKED	kernel.h	17;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -L. -L.\/usloss\/lib$/;"	m
+LIBS	Makefile	/^LIBS = -lphase1 -lusloss$/;"	m
+LOWEST_PRIORITY	usloss/include/phase1.h	37;"	d
+LOW_PRI_DEV	usloss/include/usloss.h	63;"	d
+MAXARG	usloss/include/phase1.h	26;"	d
+MAXLINE	usloss/include/phase2.h	11;"	d
+MAXLINE	usloss/include/phase4.h	12;"	d
+MAXMBOX	usloss/include/phase2.h	13;"	d
+MAXNAME	usloss/include/phase1.h	20;"	d
+MAXPRIORITY	kernel.h	6;"	d
+MAXPROC	usloss/include/phase1.h	14;"	d
+MAXSEMS	usloss/include/phase3.h	9;"	d
+MAXSLOTS	usloss/include/phase2.h	14;"	d
+MAXSYSCALLS	usloss/include/phase1.h	32;"	d
+MAX_MESSAGE	usloss/include/phase2.h	15;"	d
+MAX_UNITS	usloss/include/usloss.h	89;"	d
+MINPRIORITY	kernel.h	5;"	d
+MMU_INT	usloss/include/usloss.h	60;"	d
+N	testcases/test18.c	18;"	d	file:
+NO_CURRENT_PROCESS	kernel.h	4;"	d
+NUM_INTS	usloss/include/usloss.h	45;"	d
+PROVIDED_PROTOTYPES_H	usloss/include/provided_prototypes.h	9;"	d
+PSR_CURRENT_INT	usloss/include/usloss.h	179;"	d
+PSR_CURRENT_MASK	usloss/include/usloss.h	183;"	d
+PSR_CURRENT_MODE	usloss/include/usloss.h	178;"	d
+PSR_MASK	usloss/include/usloss.h	185;"	d
+PSR_PREV_INT	usloss/include/usloss.h	181;"	d
+PSR_PREV_MASK	usloss/include/usloss.h	184;"	d
+PSR_PREV_MODE	usloss/include/usloss.h	180;"	d
+ProcTable	phase1.c	/^proc_struct ProcTable[MAXPROC];$/;"	v
+QUIT	kernel.h	14;"	d
+READY	kernel.h	12;"	d
+RUNNING	kernel.h	13;"	d
+ReadyList	phase1.c	/^static proc_ptr ReadyList;$/;"	v	file:
+SENTINELPID	kernel.h	7;"	d
+SENTINELPRIORITY	kernel.h	8;"	d
+SYSCALL_INT	usloss/include/usloss.h	61;"	d
+SYS_COW	usloss/include/usyscall.h	37;"	d
+SYS_CPUTIME	usloss/include/usyscall.h	27;"	d
+SYS_DISKREAD	usloss/include/usyscall.h	19;"	d
+SYS_DISKSIZE	usloss/include/usyscall.h	21;"	d
+SYS_DISKWRITE	usloss/include/usyscall.h	20;"	d
+SYS_GETPID	usloss/include/usyscall.h	28;"	d
+SYS_GETTIMEOFDAY	usloss/include/usyscall.h	26;"	d
+SYS_HEAPALLOC	usloss/include/usyscall.h	33;"	d
+SYS_HEAPFREE	usloss/include/usyscall.h	34;"	d
+SYS_MBOXCONDRECEIVE	usloss/include/usyscall.h	17;"	d
+SYS_MBOXCONDSEND	usloss/include/usyscall.h	16;"	d
+SYS_MBOXCREATE	usloss/include/usyscall.h	12;"	d
+SYS_MBOXRECEIVE	usloss/include/usyscall.h	15;"	d
+SYS_MBOXRELEASE	usloss/include/usyscall.h	13;"	d
+SYS_MBOXSEND	usloss/include/usyscall.h	14;"	d
+SYS_PROTECT	usloss/include/usyscall.h	35;"	d
+SYS_SEMCREATE	usloss/include/usyscall.h	22;"	d
+SYS_SEMFREE	usloss/include/usyscall.h	25;"	d
+SYS_SEMP	usloss/include/usyscall.h	23;"	d
+SYS_SEMV	usloss/include/usyscall.h	24;"	d
+SYS_SHARE	usloss/include/usyscall.h	36;"	d
+SYS_SLEEP	usloss/include/usyscall.h	18;"	d
+SYS_SPAWN	usloss/include/usyscall.h	9;"	d
+SYS_TERMINATE	usloss/include/usyscall.h	11;"	d
+SYS_TERMREAD	usloss/include/usyscall.h	7;"	d
+SYS_TERMWRITE	usloss/include/usyscall.h	8;"	d
+SYS_VMDESTROY	usloss/include/usyscall.h	32;"	d
+SYS_VMINIT	usloss/include/usyscall.h	31;"	d
+SYS_WAIT	usloss/include/usyscall.h	10;"	d
+TARGET	Makefile	/^TARGET=libphase1.a$/;"	m
+TERM_CTRL_CHAR	usloss/include/usloss.h	152;"	d
+TERM_CTRL_RECV_INT	usloss/include/usloss.h	158;"	d
+TERM_CTRL_XMIT_CHAR	usloss/include/usloss.h	161;"	d
+TERM_CTRL_XMIT_INT	usloss/include/usloss.h	155;"	d
+TERM_DEV	usloss/include/usloss.h	75;"	d
+TERM_INT	usloss/include/usloss.h	59;"	d
+TERM_STAT_CHAR	usloss/include/usloss.h	137;"	d
+TERM_STAT_RECV	usloss/include/usloss.h	143;"	d
+TERM_STAT_XMIT	usloss/include/usloss.h	140;"	d
+TERM_UNITS	usloss/include/usloss.h	84;"	d
+TESTDIR	Makefile	/^TESTDIR=testcases$/;"	m
+TESTS	Makefile	/^TESTS= test00 test01 test02 test03 test04 test05 test06 test07 test08 \\$/;"	m
+TIME_SLICE	kernel.h	9;"	d
+UNAME	Makefile	/^UNAME := $(shell uname -s)$/;"	m
+USLOSS_MAX_SYSCALLS	usloss/include/usyscall.h	42;"	d
+USLOSS_MIN_STACK	usloss/include/usloss.h	197;"	d
+USLOSS_MMU_ACCESS	usloss/include/usloss.h	239;"	d
+USLOSS_MMU_DIRTY	usloss/include/usloss.h	245;"	d
+USLOSS_MMU_ERR_ACC	usloss/include/usloss.h	225;"	d
+USLOSS_MMU_ERR_FRAME	usloss/include/usloss.h	220;"	d
+USLOSS_MMU_ERR_MAPS	usloss/include/usloss.h	226;"	d
+USLOSS_MMU_ERR_NOMAP	usloss/include/usloss.h	224;"	d
+USLOSS_MMU_ERR_OFF	usloss/include/usloss.h	217;"	d
+USLOSS_MMU_ERR_ON	usloss/include/usloss.h	218;"	d
+USLOSS_MMU_ERR_PAGE	usloss/include/usloss.h	219;"	d
+USLOSS_MMU_ERR_PROT	usloss/include/usloss.h	221;"	d
+USLOSS_MMU_ERR_REMAP	usloss/include/usloss.h	223;"	d
+USLOSS_MMU_ERR_TAG	usloss/include/usloss.h	222;"	d
+USLOSS_MMU_FAULT	usloss/include/usloss.h	238;"	d
+USLOSS_MMU_NUM_TAG	usloss/include/usloss.h	211;"	d
+USLOSS_MMU_OK	usloss/include/usloss.h	216;"	d
+USLOSS_MMU_PROT_NONE	usloss/include/usloss.h	231;"	d
+USLOSS_MMU_PROT_READ	usloss/include/usloss.h	232;"	d
+USLOSS_MMU_PROT_RW	usloss/include/usloss.h	233;"	d
+USLOSS_MMU_REF	usloss/include/usloss.h	244;"	d
+XXp1	testcases/test00.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test01.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test02.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test03.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test04.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test05.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test06.c	/^XXp1( char *arg )$/;"	f
+XXp1	testcases/test07.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test08.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test09.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test10.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test11.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test12.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test13.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test14.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test15.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test16.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test17.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test19.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test20.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test21.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test22.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test23.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test24.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test25.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test26.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test27.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test28.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test29.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test30.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test31.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test32.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test33.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test34.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test35.c	/^int XXp1(char *arg)$/;"	f
+XXp1	testcases/test36.c	/^int XXp1(char *arg)$/;"	f
+XXp2	testcases/test01.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test02.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test03.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test07.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test08.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test13.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test14.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test15.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test16.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test18.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test19.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test23.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test24.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test25.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test27.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test28.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test29.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test30.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test35.c	/^int XXp2(char *arg)$/;"	f
+XXp2	testcases/test36.c	/^int XXp2(char *arg)$/;"	f
+XXp3	testcases/test13.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test14.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test15.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test16.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test18.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test24.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test25.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test28.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test29.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test30.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test35.c	/^int XXp3(char *arg)$/;"	f
+XXp3	testcases/test36.c	/^int XXp3(char *arg)$/;"	f
+XXp4	testcases/test25.c	/^int XXp4(char *arg)$/;"	f
+XXp4	testcases/test28.c	/^int XXp4(char *arg)$/;"	f
+XXp4	testcases/test29.c	/^int XXp4(char *arg)$/;"	f
+ZAP_BLOCKED	kernel.h	18;"	d
+_LIBUSER_H	usloss/include/libuser.h	6;"	d
+_MYPHASE1_H	my_phase1.h	2;"	d
+_PHASE1_H	usloss/include/phase1.h	6;"	d
+_PHASE2_H	usloss/include/phase2.h	6;"	d
+_PHASE3_H	usloss/include/phase3.h	6;"	d
+_PHASE4_H	usloss/include/phase4.h	6;"	d
+_USYSCALL_H	usloss/include/usyscall.h	3;"	d
+_usloss_h	usloss/include/usloss.h	7;"	d
+add_proc_to_ready_list	phase1.c	/^void add_proc_to_ready_list(proc_ptr proc) {$/;"	f
+add_to_quit_child_list	phase1.c	/^void add_to_quit_child_list(proc_ptr ptr) {$/;"	f
+arg1	usloss/include/phase2.h	/^        void *arg1;$/;"	m	struct:sysargs
+arg2	usloss/include/phase2.h	/^        void *arg2;$/;"	m	struct:sysargs
+arg3	usloss/include/phase2.h	/^        void *arg3;$/;"	m	struct:sysargs
+arg4	usloss/include/phase2.h	/^        void *arg4;$/;"	m	struct:sysargs
+arg5	usloss/include/phase2.h	/^        void *arg5;$/;"	m	struct:sysargs
+bits	kernel.h	/^   struct psr_bits bits;$/;"	m	union:psr_values	typeref:struct:psr_values::psr_bits
+block_me	phase1.c	/^int block_me(int new_status){$/;"	f
+buf	testcases/test00.c	/^char buf[256];$/;"	v
+buf	testcases/test01.c	/^char buf[256];$/;"	v
+buf	testcases/test02.c	/^char buf[256];$/;"	v
+buf	testcases/test03.c	/^char buf[256];$/;"	v
+buf	testcases/test04.c	/^char buf[256];$/;"	v
+buf	testcases/test05.c	/^char buf[256];$/;"	v
+buf	testcases/test07.c	/^char buf[256];$/;"	v
+buf	testcases/test08.c	/^char buf[256];$/;"	v
+buf	testcases/test09.c	/^char buf[256];$/;"	v
+buf	testcases/test10.c	/^char buf[256];$/;"	v
+buf	testcases/test11.c	/^char buf[256];$/;"	v
+buf	testcases/test12.c	/^char buf[256];$/;"	v
+buf	testcases/test13.c	/^char buf[256];$/;"	v
+buf	testcases/test14.c	/^char buf[256];$/;"	v
+buf	testcases/test15.c	/^char buf[256];$/;"	v
+buf	testcases/test16.c	/^char buf[256];$/;"	v
+buf	testcases/test18.c	/^char buf[256];$/;"	v
+buf	testcases/test21.c	/^char buf[256];$/;"	v
+buf	testcases/test22.c	/^char buf[256];$/;"	v
+buf	testcases/test26.c	/^char buf[256];$/;"	v
+buf	testcases/test27.c	/^char buf[256];$/;"	v
+buf	testcases/test28.c	/^char buf[256];$/;"	v
+buf	testcases/test29.c	/^char buf[256];$/;"	v
+buf	testcases/test30.c	/^char buf[256];$/;"	v
+buf	testcases/test31.c	/^char buf[256];$/;"	v
+buf	testcases/test32.c	/^char buf[256];$/;"	v
+buf	testcases/test33.c	/^char buf[256];$/;"	v
+buf	testcases/test34.c	/^char buf[256];$/;"	v
+buf	testcases/test35.c	/^char buf[256];$/;"	v
+buf	testcases/test36.c	/^char buf[256];$/;"	v
+check_deadlock	phase1.c	/^static void check_deadlock(){$/;"	f	file:
+child_proc_ptr	kernel.h	/^   proc_ptr         child_proc_ptr;$/;"	m	struct:proc_struct
+clock_handler	phase1.c	/^void clock_handler() {$/;"	f
+context	usloss/include/usloss.h	/^    ucontext_t		context;	\/* Internal context state *\/$/;"	m	struct:context
+context	usloss/include/usloss.h	/^typedef struct context {$/;"	s
+context	usloss/include/usloss.h	/^} context;$/;"	t	typeref:struct:context
+count	testcases/test18.c	/^int count=0;$/;"	v
+cur_int_enable	kernel.h	/^		unsigned int cur_int_enable:1;$/;"	m	struct:psr_bits
+cur_mode	kernel.h	/^        unsigned int cur_mode:1;$/;"	m	struct:psr_bits
+debugflag	phase1.c	/^int debugflag = 0;$/;"	v
+device_request	usloss/include/usloss.h	/^typedef struct device_request$/;"	s
+device_request	usloss/include/usloss.h	/^} device_request;$/;"	t	typeref:struct:device_request
+disableInterrupts	phase1.c	/^void disableInterrupts()$/;"	f
+dispatcher	phase1.c	/^void dispatcher(void) {$/;"	f
+dump_processes	phase1.c	/^void dump_processes() {$/;"	f
+enableInterrupts	phase1.c	/^void enableInterrupts() {$/;"	f
+finish	phase1.c	/^void finish()$/;"	f
+fork1	phase1.c	/^int fork1(char *name, int (*start_func)(char *), char *arg, int stacksize, int priority) {$/;"	f
+get_proc_slot	phase1.c	/^int get_proc_slot() {$/;"	f
+get_psr_cur_interrupt_mode	kernel.h	/^int get_psr_cur_interrupt_mode(int psr_value) {$/;"	f
+get_psr_cur_mode	kernel.h	/^int get_psr_cur_mode(int psr_value) {$/;"	f
+get_psr_prev_interrupt_mode	kernel.h	/^int get_psr_prev_interrupt_mode(int psr_value) {$/;"	f
+get_psr_prev_mode	kernel.h	/^int get_psr_prev_mode(int psr_value) {$/;"	f
+getpid	phase1.c	/^int getpid(){$/;"	f
+init_proc_table	phase1.c	/^void init_proc_table(int pid) {$/;"	f
+initial_psr	usloss/include/usloss.h	/^    unsigned int	initial_psr;	\/* Initial PSR *\/$/;"	m	struct:context
+integer_part	kernel.h	/^   unsigned int integer_part;$/;"	m	union:psr_values
+is_zapped	phase1.c	/^int is_zapped() {$/;"	f
+join	phase1.c	/^int join(int *status) {$/;"	f
+launch	phase1.c	/^void launch()$/;"	f
+macos	usloss/include/usloss.h	11;"	d
+name	kernel.h	/^   char            name[MAXNAME];     \/* process's name *\/$/;"	m	struct:proc_struct
+next_pid	phase1.c	/^unsigned int next_pid = SENTINELPID;$/;"	v
+next_proc_ptr	kernel.h	/^   proc_ptr         next_proc_ptr;$/;"	m	struct:proc_struct
+next_quit_sibling	kernel.h	/^   proc_ptr         next_quit_sibling;$/;"	m	struct:proc_struct
+next_sibling_ptr	kernel.h	/^   proc_ptr         next_sibling_ptr;$/;"	m	struct:proc_struct
+next_who_zapped	kernel.h	/^   proc_ptr         next_who_zapped;$/;"	m	struct:proc_struct
+number	usloss/include/phase2.h	/^        int number;$/;"	m	struct:sysargs
+opr	usloss/include/usloss.h	/^	int opr;$/;"	m	struct:device_request
+p1_fork	p1.c	/^p1_fork(int pid)$/;"	f
+p1_quit	p1.c	/^p1_quit(int pid)$/;"	f
+p1_switch	p1.c	/^p1_switch(int old, int new)$/;"	f
+parent_ptr	kernel.h	/^   proc_ptr         parent_ptr;$/;"	m	struct:proc_struct
+pid	kernel.h	/^   short           pid;               \/* process id *\/$/;"	m	struct:proc_struct
+pid1	testcases/test16.c	/^int pid_z, pid1;$/;"	v
+pid1	testcases/test21.c	/^int pid1;$/;"	v
+pid1	testcases/test30.c	/^int pid1;$/;"	v
+pid1	testcases/test31.c	/^int pid1;$/;"	v
+pid1	testcases/test32.c	/^int pid1;$/;"	v
+pid3	testcases/test28.c	/^int pid3;$/;"	v
+pid3	testcases/test29.c	/^int pid3;$/;"	v
+pid_e	testcases/test13.c	/^int pid_e;$/;"	v
+pid_z	testcases/test14.c	/^int pid_z;$/;"	v
+pid_z	testcases/test15.c	/^int pid_z;$/;"	v
+pid_z	testcases/test16.c	/^int pid_z, pid1;$/;"	v
+pidlist	testcases/test17.c	/^int pidlist[5];$/;"	v
+prev_int_enable	kernel.h	/^        unsigned int prev_int_enable:1;$/;"	m	struct:psr_bits
+prev_mode	kernel.h	/^        unsigned int prev_mode:1;$/;"	m	struct:psr_bits
+print_ready_list	phase1.c	/^void print_ready_list(){$/;"	f
+priority	kernel.h	/^   int             priority;$/;"	m	struct:proc_struct
+proc_ptr	kernel.h	/^typedef struct proc_struct * proc_ptr;$/;"	t	typeref:struct:proc_struct
+proc_struct	kernel.h	/^struct proc_struct {$/;"	s
+proc_struct	kernel.h	/^typedef struct proc_struct proc_struct;$/;"	t	typeref:struct:proc_struct
+psr_bits	kernel.h	/^struct psr_bits {$/;"	s
+psr_values	kernel.h	/^union psr_values {$/;"	u
+quit	phase1.c	/^void quit(int status) {$/;"	f
+quit_child_ptr	kernel.h	/^   proc_ptr         quit_child_ptr;$/;"	m	struct:proc_struct
+quit_status	kernel.h	/^   int             quit_status;$/;"	m	struct:proc_struct
+read_cur_start_time	phase1.c	/^int read_cur_start_time() {$/;"	f
+readtime	phase1.c	/^int readtime() {$/;"	f
+reg1	usloss/include/usloss.h	/^	void *reg1;$/;"	m	struct:device_request
+reg2	usloss/include/usloss.h	/^	void *reg2;$/;"	m	struct:device_request
+remove_from_child_list	phase1.c	/^void remove_from_child_list(proc_ptr process) {$/;"	f
+remove_from_quit_list	phase1.c	/^void remove_from_quit_list(proc_ptr process) {$/;"	f
+remove_from_ready_list	phase1.c	/^void remove_from_ready_list(proc_ptr process) {$/;"	f
+sentinel	phase1.c	/^int sentinel (char *dummy) {$/;"	f
+stack	kernel.h	/^   char           *stack;$/;"	m	struct:proc_struct
+stacksize	kernel.h	/^   unsigned int    stacksize;$/;"	m	struct:proc_struct
+start	usloss/include/usloss.h	/^    void		(*start)();	\/* Starting routine. *\/$/;"	m	struct:context
+start1	testcases/test00.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test01.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test02.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test03.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test04.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test05.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test06.c	/^start1( char *arg ) $/;"	f
+start1	testcases/test07.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test08.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test09.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test10.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test11.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test12.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test13.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test14.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test15.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test16.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test17.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test18.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test19.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test20.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test21.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test22.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test23.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test24.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test25.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test26.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test27.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test28.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test29.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test30.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test31.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test32.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test33.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test34.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test35.c	/^int start1(char *arg)$/;"	f
+start1	testcases/test36.c	/^int start1(char *arg)$/;"	f
+start_arg	kernel.h	/^   char            start_arg[MAXARG];  \/* args passed to process *\/$/;"	m	struct:proc_struct
+start_func	kernel.h	/^   int (* start_func) (char *);        \/* function where process begins -- launch *\/$/;"	m	struct:proc_struct
+start_time	kernel.h	/^   int             start_time;$/;"	m	struct:proc_struct
+startup	phase1.c	/^void startup() {$/;"	f
+state	kernel.h	/^   context         state;             \/* current context for process *\/$/;"	m	struct:proc_struct
+status	kernel.h	/^   int             status;            \/* READY, BLOCKED, QUIT, etc. *\/$/;"	m	struct:proc_struct
+sysargs	usloss/include/phase2.h	/^typedef struct sysargs$/;"	s
+sysargs	usloss/include/phase2.h	/^} sysargs;$/;"	t	typeref:struct:sysargs
+time_slice	phase1.c	/^void time_slice() {$/;"	f
+to_zap_pid	testcases/test35.c	/^int to_zap_pid;$/;"	v
+to_zap_pid	testcases/test36.c	/^int to_zap_pid;$/;"	v
+unblock_proc	phase1.c	/^int unblock_proc(int pid){$/;"	f
+unblock_zappers	phase1.c	/^void unblock_zappers(proc_ptr ptr) {$/;"	f
+unused	kernel.h	/^		unsigned int unused:28;$/;"	m	struct:psr_bits
+victim	testcases/test18.c	/^int victim;$/;"	v
+who_zapped	kernel.h	/^   proc_ptr         who_zapped;$/;"	m	struct:proc_struct
+zap	phase1.c	/^int zap(int pid) {$/;"	f
+zapped	kernel.h	/^   int             zapped;$/;"	m	struct:proc_struct

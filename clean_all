@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for dir in ./phase*; do
+	echo "Cleaning $dir";
+	cd $dir && make clean && cd ..
+done
